@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bigpicturegraphics.com.np/sitemap.xml
