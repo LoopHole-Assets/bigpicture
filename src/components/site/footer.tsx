@@ -67,26 +67,31 @@ export function Footer({ onStartProject }: FooterProps) {
           </FooterCol>
 
           <FooterCol title="Studio">
-            <p className="text-sm text-background/60">
-              Creative &amp; Digital Studio
-              <br />
-              {contactInfo.address}
+            <p className="font-medium text-sm text-background">
+              Big Picture Graphics Pvt. Ltd.
             </p>
-            <p className="mt-4 text-sm text-background/60">
-              Nepal <span className="text-accent">🇳🇵</span> / Working worldwide
+            <p className="mt-1 text-sm text-background/60 leading-relaxed">
+              Chuchepati Marg, Ward 7,<br />
+              Kathmandu Metropolitan City,<br />
+              Bagmati 44602, Nepal
             </p>
-            <a
-              href={`mailto:${contactInfo.email}`}
-              className="mt-4 block text-sm text-background/80 transition-colors hover:text-accent"
-            >
-              {contactInfo.email}
-            </a>
-            <div className="mt-2 flex flex-col gap-1 text-sm text-background/60">
-              {contactInfo.phoneNumbers.map((phone) => (
-                <a key={phone} href={`tel:${phone}`} className="hover:text-accent">
-                  {phone}
+            <div className="mt-4 flex flex-col gap-1 text-sm text-background/60">
+              <p>
+                <span className="text-background/40">Phone: </span>
+                <a href="tel:+9779700003368" className="text-background/80 hover:text-accent">
+                  +977 9700003368
                 </a>
-              ))}
+              </p>
+              <p>
+                <span className="text-background/40">Email: </span>
+                <a href="mailto:bigpicturegraphic@gmail.com" className="text-background/80 hover:text-accent">
+                  bigpicturegraphic@gmail.com
+                </a>
+              </p>
+              <p>
+                <span className="text-background/40">PAN: </span>
+                <span className="text-background/80">622483631</span>
+              </p>
             </div>
           </FooterCol>
         </div>
@@ -106,10 +111,10 @@ export function Footer({ onStartProject }: FooterProps) {
         {/* Bottom bar */}
         <div className="mt-8 flex flex-col items-start justify-between gap-3 border-t border-background/15 pt-6 md:flex-row md:items-center">
           <span className="text-eyebrow text-background/60">
-            © 2026 BigPicture Graphics. All rights reserved.
+            © 2026 Big Picture Graphics Pvt. Ltd. All rights reserved.
           </span>
           <span className="text-eyebrow text-background/60">
-            Made with big ideas.
+            PAN: 622483631
           </span>
         </div>
       </div>

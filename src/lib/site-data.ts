@@ -428,7 +428,7 @@ export const testimonials: Testimonial[] = [
     company: "Gokarneshwor Light Academy",
     position: "Founder",
     quote:
-      "Big Picture Graphics has consistently delivered creative, professional, and high-quality designs for Gokarneshwor Light Academy. We truly appreciate their creativity, timely service, and attention to detail.",
+      "Big Picture Graphics Pvt. Ltd. has consistently delivered creative, professional, and high-quality designs for Gokarneshwor Light Academy. We truly appreciate their creativity, timely service, and attention to detail.",
   },
   {
     id: "t3",
@@ -491,10 +491,11 @@ export const budgetRanges = [
  * CONTACT INFO
  * ------------------------------------------------------------------------- */
 export const contactInfo = {
+  name: "Big Picture Graphics Pvt. Ltd.",
   email: "bigpicturegraphic@gmail.com",
-  phoneNumbers: ["9700003368", "9700003369"],
-  whatsapp: "9769761104",
-  address: "Big Picture Graphics Pvt. Ltd, Chuchepati, Kathmandu",
+  phoneNumbers: ["+977 9700003368"],
+  pan: "622483631",
+  address: "Chuchepati Marg, Ward 7, Kathmandu Metropolitan City, Bagmati 44602, Nepal",
   mapsUrl: "https://maps.google.com/?q=Big+Picture+Graphics+Pvt+Ltd,+Chuchepati,+Kathmandu",
 };
 
