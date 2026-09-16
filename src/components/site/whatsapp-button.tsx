@@ -4,6 +4,7 @@ import { MessageCircle } from "lucide-react";
 import { contactInfo } from "@/lib/site-data";
 
 export function WhatsAppButton() {
+  if (!contactInfo.whatsapp) return null;
   const phone = contactInfo.whatsapp.replace(/\D/g, "");
 
   return (

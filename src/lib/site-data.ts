@@ -494,6 +494,7 @@ export const contactInfo = {
   name: "Big Picture Graphics Pvt. Ltd.",
   email: "bigpicturegraphic@gmail.com",
   phoneNumbers: ["+977 9700003368"],
+  whatsapp: "+977 9700003368",
   pan: "622483631",
   address: "Chuchepati Marg, Ward 7, Kathmandu Metropolitan City, Bagmati 44602, Nepal",
   mapsUrl: "https://maps.google.com/?q=Big+Picture+Graphics+Pvt+Ltd,+Chuchepati,+Kathmandu",
